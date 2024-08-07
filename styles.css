@@ -412,10 +412,18 @@ nav ul li a:hover {
 
 /*----------------FOOTER----------------------*/
 
+.freelings-logo {
+    height: auto;
+    border-radius: 50%;
+    width: 3vw;
+}
+
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
+    gap: 10px;
 }
 
 footer a {
@@ -482,7 +490,7 @@ footer a {
 
     #servicios h2,
     .mapa h1,
-    .about-us h2{
+    .about-us h2 {
         font-size: 7vw;
     }
 
@@ -539,6 +547,9 @@ footer a {
 
 @media (max-width: 450px) {
 
+    .freelings-logo {
+        width: 5vw;
+    }
 
     .consultorio {
         height: 260px;
